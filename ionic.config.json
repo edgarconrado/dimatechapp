@@ -1,0 +1,7 @@
+{
+  "name": "dimatechapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

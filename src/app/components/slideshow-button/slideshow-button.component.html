@@ -1,0 +1,12 @@
+
+<ion-slides [options]="slideOpts">
+  <ion-slide *ngFor="let c of componentes | async">
+    <ion-card (click)="onClick( c )">
+      <ion-card-content>
+        <!-- <img src="../../../assets/img/menu/gray/Home-64.png" alt=""> -->
+        <img [src] =" c.icon" alt="">
+        <ion-label class="my-label" position="fixed">{{ c.name }}</ion-label>
+      </ion-card-content>
+    </ion-card>
+  </ion-slide>
+</ion-slides>

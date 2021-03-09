@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Análisis Facial",
+        "description": "",
+        "imagen": "../../../assets/img/casos/Analisis-facial.png"
+    },
+    {
+        "title": "Análisis Powell",
+        "description": "",
+        "imagen": "../../../assets/img/casos/Analisis-powell.png"
+    },
+    {
+        "title": "Fotografía Extraoral",
+        "description": "",
+        "imagen": "../../../assets/img/casos/Fotografia-extraoral.png"
+    },
+    {
+        "title": "Fotografía Intraoral",
+        "description": "",
+        "imagen": "../../../assets/img/casos/fotografia-intraoral.png"
+    },
+    {
+        "title": "Rx Lateral Craneo",
+        "description": "",
+        "imagen": "../../../assets/img/casos/rx-lateral-craneo.png"
+    },
+    {
+        "title": "Rx Panorámica",
+        "description": "",
+        "imagen": "../../../assets/img/casos/rx-panoramica.png"
+    }
+  ]

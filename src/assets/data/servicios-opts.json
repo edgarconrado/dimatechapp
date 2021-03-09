@@ -1,0 +1,57 @@
+[
+    {
+        "title": "Guardas Oclusales",
+        "description": "elaboración e impresión  3d de guardas miorelajantes,fisiológicas todo con un flujo digital",
+        "imagen": "../../../assets/img/servicios/guardas-oclusales.jpg"
+    },
+    {
+        "title": "Guías Quirúrgicas Implantologicas",
+        "description": "Planeacion, elaboración e impresión 3d de guías quirúrgicas con fines implantologicos.",
+        "imagen": "../../../assets/img/servicios/guias_quirurgicas_implantologicas.jpg"
+    },
+    {
+        "title": "Planeaciones Quirúrgicas",
+        "description": "Reportes quirúrgicos sugeridos  con una librería de múltiples casas comerciales implantologicas.",
+        "imagen": "../../../assets/img/servicios/planeaciones_quirurgicas.jpg"
+    },
+    {
+        "title": "Modelos Estereoliticos",
+        "description": "Impresión de Modelos Anatómicos 3d.",
+        "imagen": "../../../assets/img/servicios/modelos_estereoliticos.jpg"
+    },
+    {
+        "title": "Escaneo Intraoral",
+        "description": "Escaneo Intraoral  con fines Ortodonticos, protesicos e implantologicos.",
+        "imagen": "../../../assets/img/servicios/escaneo_intraoral.jpg"
+    },    
+    {
+        "title": "Ortopantomografía o Radiografía Panorámica",
+        "description": "Es una técnica extrabucal que se utiliza para examinar las maxilares superior e inferior en una sola placa. Frecuentemente se utiliza para complementar la información obtenida en las radiografías periapicales y de aleta de mordida",
+        "imagen": "../../../assets/img/servicios/rx-panoramica.png"
+    },  
+    {
+        "title": "Tomografía de vías aéreas",
+        "description": "Ofrece imágenes en los tres ejes del espacio para la detección de vías aéreas y aporta mediciones en los puntos de colapso",
+        "imagen": "../../../assets/img/servicios/tomografia-vias-aereas.jpg"
+    },    
+    {
+        "title": "Tomografía de Senos Paranasales",
+        "description": "Mediente esta tomografía es posible examinar los senos paranasales detalladamente en sentido coronal, sagital y axial; en el caso de sospechar la presencia de alguna patología o anormalidad en los mismos. Ayuda en el diagnóstico de la sinusitis",
+        "imagen": "../../../assets/img/servicios/tomografia-senos-paranasales.jpg"
+    },  
+    {
+        "title": "Tomografía de Patológia",
+        "description": "Nos permite observar la extensión de la lesión, el grado de destrucción ósea y su relación con estructuas anatómicas vecinas",
+        "imagen": "../../../assets/img/servicios/tomografias-patologia.jpg"
+    },    
+    {
+        "title": "Tomografía para Dientes Impactados",
+        "description": "En cualquier impactación es importante determinar si el diente está completo o parcialmente impactado",
+        "imagen": "../../../assets/img/servicios/tomografia-dientes-implantados.jpg"
+    },
+    {
+        "title": "Tomografía de ATM",
+        "description": "Podemos realizar corles hasta cada 0.2mm en cualquiera de los 3 planos del espaciopara observar con detalle la forma del cóndilo, cavidad glenoidea, eminencia articular, así como la relación que guardan ellos, en oclusión, reposo y apertura. Las imagenes sagitales permiten de un solo vistazo valorar la relación de cóndilo con la fosa y su desplazamient en la apertura de la boca.",
+        "imagen": "../../../assets/img/servicios/tomografiaatm.jpg"
+    }  
+  ]

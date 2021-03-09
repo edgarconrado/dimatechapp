@@ -1,0 +1,29 @@
+<app-header titulo = {{title}}></app-header>
+
+<ion-content>
+
+    <section>
+        <ion-list>                                
+            <ion-item-sliding *ngFor="let sucursal of sucursales | async">
+              <ion-item>
+                <ion-label>
+                    <h2>{{ sucursal.sucursal }}</h2>
+                    <p>{{ sucursal.direccion }}</p>
+                    <p>{{ sucursal.ciudad }}</p>
+                  </ion-label>
+                  <ion-note slot="end">
+                   
+                  </ion-note>
+              </ion-item>
+              <ion-item-options>
+                <ion-item-option color="success" (click)="phoneSucursal(sucursal.telefono)">
+                    <ion-icon slot="start" name="call" ></ion-icon>
+                    Llamar
+                </ion-item-option>
+              </ion-item-options>
+            </ion-item-sliding>
+   
+        </ion-list>
+    </section>
+
+</ion-content>

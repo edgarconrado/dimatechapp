@@ -1,0 +1,17 @@
+[
+    {
+        "sucursal": "Matriz",
+        "direccion": "Av. Francisco Villa # 1359 L-A, C.P. 48312",
+        "ciudad": "Puerto Vallarta Jalisco",
+        "telefono":"3223653808",
+        "mapa": "/direccion/mapa/geo:20.6427845,-105.2212088"
+    },
+    {
+        "sucursal": "Sucursal Mezcales",
+        "direccion": "Blvd. Riviera Nayarit # 252-AA",
+        "ciudad": "Mezcales Nayarit",
+        "telefono":"311275820",
+        "mapa": "/direccion/mapa/geo:20.7505743,-105.3246019"
+    }
+    
+  ]

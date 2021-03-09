@@ -1,0 +1,63 @@
+<app-header titulo={{title}}></app-header>
+
+<ion-content>
+
+    <ion-card *ngFor="let sucursal of sucursales | async">
+        <section>
+            <ion-button size="large" expand="block" (click)="sucursal1(sucursal.mapa)">
+                <ion-icon slot="start" name="location-outline"></ion-icon>
+                <small>{{ sucursal.sucursal }}</small>
+            </ion-button>
+        </section>
+
+        <ion-card-header>
+            <ion-card-subtitle><b>Dirección</b></ion-card-subtitle>
+            
+            <ion-card-content>
+                <p>{{ sucursal.direccion }}</p>
+                <p>{{ sucursal.ciudad }}</p>
+            </ion-card-content>
+
+        </ion-card-header>
+
+    </ion-card>
+
+    <!-- <ion-card>
+        <section>
+            <ion-button size="large" expand="block" (click)="sucursal1()">
+                <ion-icon slot="start" name="location-outline"></ion-icon>
+                <small>Matriz</small>
+            </ion-button>
+        </section>
+
+
+        <ion-card-header>
+            <ion-card-subtitle>Dirección</ion-card-subtitle>
+            
+        </ion-card-header>
+
+        <ion-card-content>
+            Av. Francisco Villa # 1359 L-A, C.P. 48312 Puerto Vallarta, Jal.
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <section>
+            <ion-button size="large" expand="block" (click)="sucursal2()" icon-start>
+                <ion-icon slot="start" name="location-outline"></ion-icon>
+                <small>Sucursal Mezcales</small>
+            </ion-button>
+        </section>
+
+
+        <ion-card-header>
+            <ion-card-subtitle>Dirección</ion-card-subtitle>
+            
+        </ion-card-header>
+
+        <ion-card-content>
+            Blvd. Riviera Nayarit # 252-AA Mezcales Nayarit
+        </ion-card-content>
+    </ion-card> -->
+
+</ion-content>

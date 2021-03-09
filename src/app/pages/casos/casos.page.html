@@ -1,0 +1,28 @@
+<app-header titulo = {{title}}></app-header>
+
+<ion-content>
+
+    <ion-grid fixed>
+        <ion-row>
+          <ion-col size="12" size-lg="3" size-md="4" size-sm="6">
+            <div>
+
+                <ion-img class="logo-img" src="../../assets/img/Dimatech/Dimatech.jpg" style="max-width:100%;height:auto;"></ion-img>
+    
+            </div>
+              </ion-col>
+        </ion-row>
+      </ion-grid>
+
+      <ion-card *ngFor="let caso of casos | async">
+        <ion-item>
+          <ion-icon name="images-outline" slot="start"></ion-icon>
+          <ion-label> <b>{{ caso.title }} </b></ion-label>
+          <!-- <ion-button fill="outline" slot="end">View</ion-button> -->
+        </ion-item>
+        <img [src]= "caso.imagen">
+        <ion-card-content>
+            {{ caso.description }}
+        </ion-card-content>
+      </ion-card>
+</ion-content>

@@ -1,0 +1,32 @@
+[
+    {
+      "icon": "../../assets/img/menu/gray/Writing-64.png",
+      "name": "Solicitar Estudios",
+      "redirectTo": "/estudios"
+    },
+    {
+        "icon": "../../assets/img/menu/gray/TuneUp-Utilities-64.png",
+        "name": "Servicios",
+        "redirectTo": "/servicios"  
+    },
+    {
+        "icon": "../../assets/img/menu/gray/Bookmark-file-64.png",
+        "name": "Dirección",
+        "redirectTo": "/direccion"  
+    },
+    {
+        "icon": "../../assets/img/menu/gray/Videos-64.png",
+        "name": "Videos",
+        "redirectTo": "/videos"  
+    },
+    {
+        "icon": "../../assets/img/menu/gray/Personal-64.png",
+        "name": "Casos",
+        "redirectTo": "/casos"  
+    },
+    {
+        "icon": "../../assets/img/menu/gray/HTC-Touch-64.png",
+        "name": "Llamanos",
+        "redirectTo": "/llamanos"  
+    }     
+  ]
